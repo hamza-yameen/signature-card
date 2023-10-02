@@ -1,0 +1,42 @@
+.competence-process {
+    margin-top: 10rem;
+    color: white;
+}
+
+.createCardButton {
+
+
+    padding: 10px;
+    border-radius: 25px;
+    color: #144F53;
+    border: none;
+}
+
+@media only screen and (max-width: 576px) {
+
+    /* Styles for screens with a maximum width of 576 pixels go here */
+    .createCardButton {
+        width: 80%;
+        padding: 10px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+
+    /* Styles for screens with a minimum width of 576 pixels and a maximum width of 768 pixels go here */
+    .createCardButton {
+        width: 30%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    /* Styles for screens with a minimum width of 768 pixels and a maximum width of 992 pixels go here */
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* Styles for screens with a minimum width of 992 pixels and a maximum width of 1200 pixels go here */
+}
+
+@media only screen and (min-width: 1200px) {
+    /* Styles for screens with a minimum width of 1200 pixels go here */
+}
